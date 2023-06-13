@@ -1,0 +1,26 @@
+.blackBackPrettyText {
+    background-color: black;
+    font-family: cursive;
+}
+.centered {
+    text-align: center;
+}
+.alignRight{
+    text-align: right;
+}
+#cornsilkPrettyText {
+    color: whitesmoke;
+}
+#aquaPrettyText {
+    color:deepskyblue;
+}
+h2 {
+    background-color: darkorchid;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+h3 {
+    background-color: lightskyblue;
+    text-decoration: underline;
+}
