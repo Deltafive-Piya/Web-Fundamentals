@@ -1,3 +1,5 @@
+/* Still need to fix Div SideNav */
+
 /* tracer */
 * {
     outline: 1px dotted red;
@@ -12,31 +14,34 @@
     padding: 10px;
 }
 .top-nav {
+    width: 900 px;
     height: 150px;
     background-color: green;
     margin: 20px;
 }
 .side-nav {
-    height: 300px;
+    height: 280px;
     width: 200px;
     background-color: blue;
     display:inline-block;
+    margin-right: 10px;
     
 }
 .main {
     height: 400px;
-    width: 700px;
+    width: 670px;
     background-color: red;
     padding: 20px;
     display:inline-block;
 
 }
 .sub-content {
-    height: 200px;
+    height: 260px;
     width: 210px;
     background-color: yellow;
     display: inline-block;
     margin-right: 10px;
+    border-left: 10px;
 }
 #advertisement {
     height: 120px;
