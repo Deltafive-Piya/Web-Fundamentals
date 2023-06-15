@@ -5,4 +5,15 @@
 }
 nav {
     background-color: darkgray;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
 }
+.nav-links {
+    background-color: green;
+    width: 200px;
+}
+
+
+
+
