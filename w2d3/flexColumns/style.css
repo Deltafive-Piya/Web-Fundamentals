@@ -1,7 +1,42 @@
 * {
+    margin: 0px;
+    padding: 0px;
     border: solid 1px red;
 }
-
-.row{
+.row1 {
+    width:auto;
     display:flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.col,.col-2,.col-3 {
+    background-color: darkgreen;
+}
+.pt1{
+    width: 23%;
+    margin-left: 0px;
+}
+.row2 {
+    width: auto;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 10px;
+}
+.pt2 {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+.row3 {
+    width:auto;
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 10px;
+}
+.pt3 {
+    width: 20%;
+}
+.col-3 {
+    flex: 5;
 }
