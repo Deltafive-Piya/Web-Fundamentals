@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 20%;
+    height: auto;  
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1, p{
+    text-align: center;
+}
+.top-shelf, .middle-shelf, .bottom-shelf{
+    height: 20%;
+    width: 100%;
+    justify-items: space-around;
+}
+.top-shelf{
+    background-color:cornflowerblue;
+}
+.middle-shelf {
+    background-color:lightcoral;
+}
+.bottom-shelf {
+    background-color:azure;
+}
