@@ -1,0 +1,73 @@
+/* CSS RESET */
+* {
+    outline: 1px dotted red;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: monospace;
+}
+nav {
+    background-color: rgb(27, 23, 23);
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    /* vertical align */
+    align-items: center;
+}
+.nav-links {
+    background-color: transparent;
+    /* omit because the 200 constraint was too strong for the text */
+    /* width: 200px;*/
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    list-style-type: none;
+}
+/* Upon Changing the btnTextSize, Home...Connections was offset too high within ul,  */
+li {
+    /* this will most likely be experimental, dependant on populated list */
+    margin-left: 20px;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    background-color: teal;
+    font-size: 14pt;
+    padding: 4px 8px;
+    box-shadow: 1px 2px dimgray;
+}
+.active {
+    font-weight: bold;
+}
+.container {
+    /* MAKE DEM BEHAVE YALL */
+    display: flex;
+    /* UserCard&Connections distance  */
+    justify-content: space-between;
+
+    width: 80%;
+    /* so container doesnt touch nav */
+    margin-top: 10px;
+    /* so container doesnt touch footer */
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height:500px;
+    height:auto;
+    background-color:  brown;
+}
+.mainLeft, .mainRight {
+    height: auto;
+    background-color: orange;
+    margin: 5px;
+}
+.mainLeft {
+    width: 60%;
+}
+.mainRight {
+    width: 40%;
+}
