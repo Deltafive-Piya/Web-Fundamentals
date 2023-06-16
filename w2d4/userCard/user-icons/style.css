@@ -10,6 +10,7 @@
 body {
     background-color: #f3f3f3;
     font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
 }
 
 .flex-container {
@@ -53,6 +54,7 @@ body {
     height: 190px;
     padding: 5px;
     margin-top: 20px;
+    /* example didnt have expected margin */
     margin-left: 20px;
 }
 
