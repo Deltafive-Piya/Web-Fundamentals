@@ -2,18 +2,43 @@
 * {
     padding: 0;
     margin: 0;
+    color: white;
+    font-family: monospace;
 }
 nav {
-    background-color: darkgray;
-    padding: 8px;
+    background-color: rgb(27, 23, 23);
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    /* vertical align */
+    align-items: center;
+}
+.nav-links {
+    background-color: transparent;
+    /* omit because the 200 constraint was too strong for the text */
+    /* width: 200px;*/
+
+    align-items: center;
     display: flex;
     justify-content: space-between;
 }
-.nav-links {
-    background-color: green;
-    width: 200px;
+ul {
+    list-style-type: none;
 }
-
-
-
-
+/* Upon Changing the btnTextSize, Home...Connections was offset too high within ul,  */
+li {
+    /* this will most likely be experimental, dependant on populated list */
+    margin-left: 20px;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    background-color: teal;
+    font-size: 14pt;
+    padding: 4px 8px;
+    box-shadow: 1px 2px dimgray;
+}
+.active {
+    font-weight: bold;
+}
