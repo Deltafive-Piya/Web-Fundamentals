@@ -1,0 +1,41 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.eCContainer {
+    font-family: 'Roboto', sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eCard {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.ECHeader {
+    background-color: #6f6f6f;
+    height: 70px;
+    margin-bottom: 0px;
+}
+
+.eCBody {
+    padding: 20px;
+}
+
+.eCTitle {
+    display: flex;
+    font-size: 3em;
+    margin-left: 30px;
+}
