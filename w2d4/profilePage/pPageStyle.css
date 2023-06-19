@@ -253,5 +253,7 @@ a {
 .cRChoice {
     padding: 15px;
     width: auto;
+    max-width: 40px;
     height: auto;
+    max-height: 40px;
 }
