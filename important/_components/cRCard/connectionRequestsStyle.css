@@ -1,0 +1,72 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cRContainer {
+    font-family: 'Roboto', sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cRCard {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.cRHeader {
+    background-color: #6f6f6f;
+    height: 70px;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.cRBody {
+    padding: 20px;
+}
+
+.cRTitle {
+    display: flex;
+    font-size: 2em;
+    margin-left: 30px;
+}
+.cRIcon {
+
+}
+.cREntry {
+    display:flex;
+    justify-content: space-between;
+}
+
+.cRCount {
+    padding: 8px;
+}
+.cRBody-Left {
+    display:flex;
+
+}
+
+.cRName {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cRBody-Right {
+    display:flex;
+}
+
+.cRChoice {
+    padding: 15px;
+    width: 50%;
+    height: 70%;
+}

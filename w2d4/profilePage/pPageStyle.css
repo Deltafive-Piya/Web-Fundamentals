@@ -59,9 +59,7 @@ a {
     justify-content: space-between;
 
     width: 80%;
-    /* so container doesnt touch nav */
     margin-top: 10px;
-    /* so container doesnt touch footer */
     margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -71,7 +69,6 @@ a {
 }
 
 .mainLeft, .mainRight {
-    width: 40%;
     height: auto;
     background-color: rgb(220, 143, 20);
     margin: 5px;
@@ -98,6 +95,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+/* User Card Style */
 .uCContainer {
     width: 90%;
     margin: 0 auto;
@@ -139,7 +137,6 @@ body {
     height: 190px;
     padding: 5px;
     margin-top: 20px;
-    /* example didnt have expected margin */
     margin-left: 20px;
 }
 
@@ -150,6 +147,7 @@ body {
 a {
     color: #3a81e6;
 }
+/* Education Card Style */
 .eCContainer {
     font-family: 'Roboto', sans-serif;
     width: 90%;
@@ -183,4 +181,72 @@ a {
     display: flex;
     font-size: 3em;
     margin-left: 30px;
+}
+
+/* Connection Request Card Style */
+.cRContainer {
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cRCard {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.cRHeader {
+    background-color: #6f6f6f;
+    height: 70px;
+    margin-bottom: 0px;
+    display: flex;
+}
+
+.cRBody {
+    padding: 20px;
+}
+
+.cRTitle {
+    display: flex;
+    font-size: 2em;
+    margin-left: 30px;
+}
+.cRIcon {
+    min-width: 4px;
+    min-height:4px;
+}
+.cREntry {
+    display:flex;
+    justify-content: space-between;
+}
+
+.cRCount {
+    padding: 8px;
+}
+.cRBody-Left {
+    display:flex;
+
+}
+
+.cRName {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cRBody-Right {
+    display:flex;
+}
+
+.cRChoice {
+    padding: 15px;
+    width: 50%;
+    height: 70%;
 }
