@@ -3,7 +3,6 @@
     outline: 1px dotted red;
     padding: 0px;
     margin: 0px;
-    color: white;
     font-family: monospace;
 }
 
@@ -16,6 +15,9 @@ nav {
     align-items: center;
 }
 
+.whiteText {
+    color: white;
+}
 .nav-links {
     background-color: transparent;
     /* omit because the 200 constraint was too strong for the text */
@@ -71,7 +73,7 @@ a {
 .mainLeft, .mainRight {
     width: 40%;
     height: auto;
-    background-color: orange;
+    background-color: rgb(220, 143, 20);
     margin: 5px;
 }
 
@@ -96,18 +98,25 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.uContainer {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-.user-card {
-    margin-top: 20px;
-    width: 80%;
+.uCard {
+    width: 100%;
     background-color: #fff;
-    margin-bottom: 20px;  /* Space from Edu Card */
-    border-radius: 3px;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
     font-size: 1.2rem;
     overflow: hidden;
 }
 
-.card-header {
+.uCHeader {
     background-color: #17a2b8;
     height: 125px;
     margin-bottom: 70px;
@@ -124,7 +133,7 @@ body {
     margin: 20px 0px;
 }
 
-.avatar-m {
+.uCAvatar-m {
     border-radius: 50%;
     background-color: #fff;
     height: 190px;
@@ -134,13 +143,44 @@ body {
     margin-left: 20px;
 }
 
-.icon-s {
+.uCIcon-s {
     height: 20px;
 }
 
 a {
     color: #3a81e6;
 }
+.eCContainer {
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .eCard {
-    width: 80%;
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.ECHeader {
+    background-color: #6f6f6f;
+    height: 70px;
+    margin-bottom: 0px;
+}
+
+.eCBody {
+    padding: 20px;
+}
+
+.eCTitle {
+    display: flex;
+    font-size: 3em;
+    margin-left: 30px;
 }

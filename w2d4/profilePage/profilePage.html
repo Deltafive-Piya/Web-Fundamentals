@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pPageStyle.css">
 </head>
 <body>
     <!-- NavBar -->
     <nav>
-        <h1>Profile</h1>
+        <h1 class="whiteText">Profile</h1>
         <div class="nav">
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
@@ -23,38 +23,47 @@
     <div class="container">
         <!-- Container Div containing two divs (userCardArea,educationArea) -->
         <div class="mainLeft">
-            <div class="user-card">
-                <div class="card-header">
-                    <img src="icons/user-circle.png" alt="user-circle" class="avatar-m">
-                </div>
-                <div class="card-body">
-                    <h1>Jane Doe</h1>
-                    <h3>
-                        <img src="icons/map-marker.png" alt="pin" class="icon-s">
-                        Seattle
-                    </h3>
-                    <p>Developer | Engineer | Problem Solver<br>
-                        Master of shadows and the Internet!</p>
-                    <p>
-                        <a href="#">
-                            <img src="icons/gear.png" alt="gear" class="icon-s">
-                            edit profile
-                        </a>
-                    </p>
-                </div>
-            </div>
-            <div class="eCard">
-                <div class="card-body">
-
-                    </p>
+            <div class="uContainer">
+                <!-- user info card -->
+                <div class="uCard">
+                    <div class="uCHeader">
+                        <img src="icons/user-circle.png" alt="user-circle" class="uCAvatar-m">
+                    </div>
+                    <div class="card-body">
+                        <h1>Pier Stoddard</h1>
+                        <h3>
+                            <img src="icons/map-marker.png" alt="pin" class="uCIcon-s">
+                            Savannah, GA
+                        </h3>
+                        <p>Developer | Engineer | Problem Solver<br>
+                            Master of shadows and the Internet!</p>
+                        <p>
+                            <a href="#">
+                                <img src="icons/gear.png" alt="gear" class="uCIcon-s">
+                                edit profile
+                            </a>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="userCardArea">
-
+            <div class="eCContainer">
+                <div class="eCard">
+                    <div class="ECHeader">
+                        <p class="eCTitle">Education</p>
+                    </div>
+                    <div class="eCBody">
+                        <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                        <h3>Dec 2019 - Mar 2020</h3>
+                        <p>Triple Black Belt in Python, MERN, and C#...</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="mainRight"></div>
+        <div class="userCardArea">
 
-        <!-- UP SOME mainRightDiv containing two divs (mainRightUpper,mainRightLower)-->
+        </div>
+        <div class="mainRight"></div>
+    </div>
+    <!-- UP SOME mainRightDiv containing two divs (mainRightUpper,mainRightLower)-->
 </body>
 </html>
