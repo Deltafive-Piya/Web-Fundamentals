@@ -1,6 +1,6 @@
 /* CSS RESET */
 * {
-    outline: 1px dotted red;
+    /* outline: 1px dotted red; */
     padding: 0px;
     margin: 0px;
     font-family: monospace;
@@ -65,12 +65,14 @@ a {
     margin-right: auto;
     min-height:500px;
     height:2023px;
-    background-color:  brown;
+    /* background-color:  brown; 
+    ------------------------------*/
 }
 
 .mainLeft, .mainRight {
     height: auto;
-    background-color: rgb(220, 143, 20);
+    /* background-color: rgb(220, 143, 20); 
+    ------------------------------*/
     margin: 5px;
 }
 
@@ -186,7 +188,7 @@ a {
 /* Connection Request Card Style */
 .cRContainer {
     font-family: 'Roboto', sans-serif;
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -218,6 +220,8 @@ a {
     display: flex;
     font-size: 2em;
     margin-left: 30px;
+    justify-content: space-around;
+    flex-direction: column;
 }
 .cRIcon {
     width: 40px;
@@ -256,4 +260,79 @@ a {
     max-width: 40px;
     height: auto;
     max-height: 40px;
+}
+
+/* Youir Connects Card */
+.yCContainer {
+    font-family: 'Roboto', sans-serif;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yCCard {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.yCHeader {
+    background-color: #6f6f6f;
+    height: 70px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.yCBody {
+    padding: 20px;
+}
+
+.yCTitle {
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    margin-left: 30px;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+.yCIcon {
+    width: 40px;
+    height:40px;
+    align-items: center;
+}
+.yCEntry {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.yCCount {
+    padding: 8px;
+}
+.yCBody-Left {
+    display:flex;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.yCName {
+    margin: 10px;
+    margin-left: 20px;;
+}
+
+.yCFooter {
+    outline: 4px solid rgb(106, 106, 106);
+    padding: 10px 25px;
+}
+
+#yCFooterText {
+    text-decoration: underline;
 }
