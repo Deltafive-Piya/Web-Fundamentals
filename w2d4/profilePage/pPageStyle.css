@@ -64,7 +64,7 @@ a {
     margin-left: auto;
     margin-right: auto;
     min-height:500px;
-    height:1000px;
+    height:2023px;
     background-color:  brown;
 }
 
@@ -75,7 +75,7 @@ a {
 }
 
 .mainLeft {
-    width: 60%;
+    width: 50%;
 }
 
 .mainRight {
@@ -220,12 +220,14 @@ a {
     margin-left: 30px;
 }
 .cRIcon {
-    min-width: 4px;
-    min-height:4px;
+    width: 40px;
+    height:40px;
+    align-items: center;
 }
 .cREntry {
     display:flex;
     justify-content: space-between;
+    padding-bottom: 5px;
 }
 
 .cRCount {
@@ -233,6 +235,8 @@ a {
 }
 .cRBody-Left {
     display:flex;
+    align-content: center;
+    flex-wrap: wrap;
 
 }
 
@@ -243,10 +247,11 @@ a {
 
 .cRBody-Right {
     display:flex;
+    flex-direction: row-reverse;
 }
 
 .cRChoice {
     padding: 15px;
-    width: 50%;
-    height: 70%;
+    width: auto;
+    height: auto;
 }
