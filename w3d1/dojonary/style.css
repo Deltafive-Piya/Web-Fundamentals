@@ -6,7 +6,6 @@
 	margin: 0;
 }
 .container {
-    display: flex;
     width: 80%;
     min-height: 200px;
     margin : 0 auto;
@@ -45,4 +44,12 @@
 	color: whitesmoke;
     border-radius: 8px;
 	/* border: none; */
+}
+
+.feed {
+    margin-top: 10px;
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    background-color: brown;
 }
