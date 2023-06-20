@@ -1,0 +1,56 @@
+.finderNav,
+.finderNav button {
+	display: flex;
+	justify-content: space-between;
+	background-color: darkgray;
+	font-family: monospace;
+}
+
+.finderNav h1 {
+	margin: 0;
+	font-size: 24px;
+}
+
+.searchBox {
+	display: flex;
+	align-items: center;
+}
+
+.searchBox input {
+	width: 150px;
+	padding: 5px;
+}
+
+.finderNav button {
+	padding: 5px 10px;
+	background-color: mediumblue;
+	color: whitesmoke;
+	border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
