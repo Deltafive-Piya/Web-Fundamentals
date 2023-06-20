@@ -1,6 +1,6 @@
-* {
+/* * {
 	outline: 1px solid red;
-}
+} */
 * {
 	padding: 0;
 	margin: 0;
@@ -17,7 +17,8 @@
 	background-color: darkgray;
 	font-family: monospace;
     width: 100%;
-    max-height: 40px;
+    min-height: 40px;
+    align-items: center;
 }
 
 .finderNav h1 {
@@ -29,6 +30,7 @@
 .searchBox {
 	display: flex;
 	align-items: center;
+    height: 90%;
 }
 
 .searchBox input {
@@ -41,8 +43,8 @@
     width: auto;
     height: 70%;
 	background-color: mediumblue;
-	color: whitesmoke;
-    border-radius: 8px;
+	color: white;
+    border-radius: 2px;
 	/* border: none; */
 }
 
@@ -53,11 +55,11 @@
     width: 100%;
     min-height: 100px;
     height: auto;
-    background-color: brown;
+    /* background-color: brown; */
 }
 .posts, .info {
     width: 65%;
-    background-color: chocolate;
+    /* background-color: chocolate; */
 }
 
 .info {
@@ -71,18 +73,20 @@
     width: 100%;
     min-height: 40px;
     height: fit-content;
-    background-color: yellow;
+    /* background-color: yellow; */
     margin-bottom: 10px;
 }
 
 .postMain {
     padding: 10px;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 28%;
     height: auto;
-    background-color: whitesmoke;
+    background-color: white;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .postDetails {
     display:flex;
@@ -90,11 +94,11 @@
     flex-direction: column;
     width: 60%;
     height: auto;
-    background-color: whitesmoke;
+    background-color: white;
     font-size: small;
 }
 
-.postMain > p {
+.postMain > p, .postMainLikeBtn {
     font-family: monospace;
 }
 .postMainTitle {
@@ -107,6 +111,38 @@
     font-size: 10px;;
     margin-bottom: 7px;
 }
-.postMainLinkeBtn {
-    min-height: 120px;
+.postMainLikeBtn {
+    padding: 2px 6px;
+    background-color:gold;
+    font-size: 9px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.infoBox {
+    min-height: 100px;
+    display:flex;
+    padding: 8px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+.infoBoxMessege {
+    font-family: monospace;
+}
+
+.infoBtn {
+    background-color:olivedrab;
+    margin-top: 5px;
+    padding: 3px 10px;
+    border-radius: 2px;
+    /* max-height: 12px;; */
+}
+
+
+/* outline */
+.searchBox, .postEntry, .infoBox {
+    outline: 2px solid black;
+    border-radius: 2px;
 }
