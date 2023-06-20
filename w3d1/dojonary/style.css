@@ -98,7 +98,7 @@
     font-size: small;
 }
 
-.postMain > p, .postMainLikeBtn {
+.postMain > p {
     font-family: monospace;
 }
 .postMainTitle {
@@ -128,7 +128,7 @@
     justify-content: space-evenly
 }
 
-.infoBoxMessege {
+.infoBoxMessege, .monod , input::placeholder{
     font-family: monospace;
 }
 
