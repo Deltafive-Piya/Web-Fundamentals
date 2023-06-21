@@ -1,0 +1,21 @@
+* {padding:0px; margin:0px; box-sizing:border-box;
+    outline: 2px dotted red
+}
+
+body {width:1000px}
+
+.container{
+    width: 80%;
+    height: 100%;
+    background-color: brown;
+}
+
+.nav {}
+
+.container{}
+
+    .profileBox{}
+
+.feedHalf{}
+
+    .randomFeedBox{}
