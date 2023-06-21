@@ -1,0 +1,151 @@
+/* * {
+	outline: 1px solid red;
+} */
+* {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 80%;
+	min-height: 200px;
+	margin: 0 auto;
+}
+
+.finderNav {
+	display: flex;
+	justify-content: space-between;
+	background-color: darkgray;
+	font-family: monospace;
+	width: 100%;
+	min-height: 40px;
+	align-items: center;
+}
+
+.finderNav h1 {
+	padding: 0.4%;
+	margin: 0;
+	font-size: 24px;
+}
+
+.searchBox {
+	display: flex;
+	align-items: center;
+	height: 90%;
+}
+
+.searchBox input {
+	width: 150px;
+	padding: 5px;
+}
+
+.finderNav button {
+	margin: 5px;
+	width: auto;
+	height: 70%;
+	background-color: mediumblue;
+	color: white;
+	border-radius: 2px;
+	/* border: none; */
+}
+
+.feed {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	width: 100%;
+	min-height: 100px;
+	height: auto;
+	/* background-color: brown; */
+}
+.posts,
+.info {
+	width: 65%;
+	/* background-color: chocolate; */
+}
+
+.info {
+	width: 30%;
+}
+
+.postEntry {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	min-height: 40px;
+	height: fit-content;
+	/* background-color: yellow; */
+	margin-bottom: 10px;
+}
+
+.postMain {
+	padding: 10px;
+	display: flex;
+	flex-wrap: nowrap;
+	width: 28%;
+	height: auto;
+	background-color: white;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+.postDetails {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 60%;
+	height: auto;
+	background-color: white;
+	font-size: small;
+}
+
+.postMain > p {
+	font-family: monospace;
+}
+.postMainTitle {
+	font-size: 25px;
+}
+.postMainDescription1 {
+	font-size: 15px;
+}
+.postMainDescription2 {
+	font-size: 10px;
+	margin-bottom: 7px;
+}
+.postMainLikeBtn {
+	padding: 2px 6px;
+	background-color: gold;
+	font-size: 9px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+
+.infoBox {
+	min-height: 100px;
+	display: flex;
+	padding: 8px;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.infoBoxMessege,
+.monod,
+input::placeholder {
+	font-family: monospace;
+}
+
+.infoBtn {
+	background-color: olivedrab;
+	margin-top: 5px;
+	padding: 3px 10px;
+	border-radius: 2px;
+	/* max-height: 12px;; */
+}
+
+/* outline */
+.searchBox,
+.postEntry,
+.infoBox {
+	outline: 2px solid black;
+	border-radius: 2px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button-Clicker-Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- finderNav Component -->
+        <nav class="finderNav">
+            <h1>Dojonary</h1>
+            <form class="searchBox">
+                <input type="text" placeholder="Search">
+            </form>
+            <button id="logInOutBtn" onclick="logToggle()" class="monod">In</button>
+        </nav>
+        <div class="feed">
+            <!-- WITHIN FEED Need to include Flexed 2 divs 
+                (left is posts, right is info) -->
+            <div class="posts">
+                <!-- postsDiv Needs posts -->
+                <!-- post 1 -->
+                <div class="postEntry">
+                    <!-- postEntry needs postMainDiv and postDetailsDiv -->
+                    <div class="postMain">
+                        <!-- postMain CENTERS 4 items: title, description1, description2, and dynamic like button -->
+                        <p class="postMainTitle">ninja</p>
+                        <p class="postMainDescription1">noun</p>
+                        <p class="postMainDescription2">Plural:Ninjas</p>
+                        <button class="postMainLikeBtn monod">14 likes</button>
+                    </div>
+                    <div class="postDetails">
+                        <!-- postDetails includes <p>Tag with hyperLinks -->
+                        <p class="monod"> A practitioner skilled in the Japanese art of Ninjutsu</p>
+                    </div>
+                </div>
+                <!-- post 2 -->
+                <div class="postEntry">
+                    <!-- postEntry needs postMainDiv and postDetailsDiv -->
+                    <div class="postMain">
+                        <!-- postMain CENTERS 4 items: title, description1, description2, and dynamic like button -->
+                        <p class="postMainTitle">ninja</p>
+                        <p class="postMainDescription1">noun</p>
+                        <p class="postMainDescription2">Plural:Ninjas</p>
+                        <button class="postMainLikeBtn monod">12 likes</button>
+                    </div>
+                    <div class="postDetails">
+                        <!-- postDetails includes <p>Tag with hyperLinks -->
+                        <p class="monod"> A programmer who breaks down problems with zen-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <!-- infoDiv needs 1 info w/ btn -->
+                <div class="infoBox">
+                    <!-- description and button -->
+                    <p class="infoBoxMessege"> Dojonary is defined by <strong>YOU</strong></p>
+                    <button class="infoBtn monod">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
