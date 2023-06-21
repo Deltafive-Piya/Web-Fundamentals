@@ -1,21 +1,88 @@
-* {padding:0px; margin:0px; box-sizing:border-box;
-    outline: 2px dotted red
+* {padding:0px; margin:0px;
+    outline: 2px dotted red;
+    font-family: monospace;
+}   
+
+body {
+   
+    width:1000px;
+    min-height: 700px;
+    margin: 0 auto;
+    /* background-color: rgb(234, 185, 185); */
 }
 
-body {width:1000px}
+nav {
+    min-height: 30px;
+    width:80%;
+    margin:0 auto;
+    background-color: rgb(27, 23, 23);
+    color: white;
+    /*padding: 7px;  is there a better way to make it gooder? */
+}
 
+nav > h1 {
+
+}
+
+h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* The FEED-CONTAINERS HERE */
 .container{
+    display:flex;
+    justify-content: space-between;
     width: 80%;
-    height: 100%;
-    background-color: brown;
+    min-height: 800px;
+    /* background-color: chocolate; */
+    margin:0 auto;
 }
 
-.nav {}
+    /* LEFT HALF OF CONTAINER */
+    .profileBoxHalf{
+        width:25%;
+        min-height: 600px;
+    }
+        .profileBox{
+            min-height:180px;
+            outline: 4px solid black; /*Awanna merge this */
+            display:flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+            .profileBox > img {
+                width:70px;
+                height: auto;
+            }
+            .profileBox > h3 {
+                font-size: x-large;
+            }
 
-.container{}
 
-    .profileBox{}
+    /* RIGHT HALF OF CONTAINER */
+    .feedHalf{
+        width:68%;
+        min-height: auto;
+        
+    }
+        .randomFeedBox{
+            outline: 4px solid black; /*Bwanna merge this */
+            margin-bottom: 10px;
+            width:100%;
+            min-height: 100px;
+            background-color: gold;
+        }
 
-.feedHalf{}
+            /* DIVIDERS FOR RightFeedBoxes */
+            .rFB-main, .rFB-details {
+                width: 100%;
+                min-height: 40px;
+                background-color: rgb(100, 251, 100);
+            }
 
-    .randomFeedBox{}
+            .rFB-details {
+                margin-top: 5px;
+                background-color: rgb(117, 117, 242);
+            }

@@ -1,0 +1,12 @@
+/* CSS RESET */
+* {padding: 0;margin: 0;
+}
+
+nav {
+    background-color: rgb(27, 23, 23);
+    color: white;
+    padding: 7px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: monospace;
+}
