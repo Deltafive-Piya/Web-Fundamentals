@@ -14,7 +14,7 @@
             <form class="searchBox">
                 <input type="text" placeholder="Search">
             </form>
-            <button id="logInOutBtn" onclick="logToggle()" class="monod">In</button>
+            <button onclick="logToggle()" id="logInOutBtn" class="monod">In</button>
         </nav>
         <div class="feed">
             <!-- WITHIN FEED Need to include Flexed 2 divs 
@@ -29,7 +29,7 @@
                         <p class="postMainTitle">ninja</p>
                         <p class="postMainDescription1">noun</p>
                         <p class="postMainDescription2">Plural:Ninjas</p>
-                        <button class="postMainLikeBtn monod">14 likes</button>
+                        <button id="likeBtn1" onclick="likeAlert()" class="postMainLikeBtn monod">14 likes</button>
                     </div>
                     <div class="postDetails">
                         <!-- postDetails includes <p>Tag with hyperLinks -->
@@ -44,7 +44,7 @@
                         <p class="postMainTitle">ninja</p>
                         <p class="postMainDescription1">noun</p>
                         <p class="postMainDescription2">Plural:Ninjas</p>
-                        <button class="postMainLikeBtn monod">12 likes</button>
+                        <button id="likeBtn2" onclick="likeAlert()" class="postMainLikeBtn monod">12 likes</button>
                     </div>
                     <div class="postDetails">
                         <!-- postDetails includes <p>Tag with hyperLinks -->
@@ -57,7 +57,7 @@
                 <div class="infoBox">
                     <!-- description and button -->
                     <p class="infoBoxMessege"> Dojonary is defined by <strong>YOU</strong></p>
-                    <button class="infoBtn monod">Add Definition</button>
+                    <button onclick="removeBtn()" id="AddDefBtn" class="infoBtn monod">Add Definition</button>
                 </div>
             </div>
         </div>
