@@ -1,0 +1,11 @@
+WF - JUNE 2023 - W2D2 - Belt Review Part 1 - major content 		https://www.youtube.com/watch?v=dYiIIesekgE
+
+
+WF - JUNE 2023 - W2D2 - Belt Review Part 2 - finish content and CSS	https://www.youtube.com/watch?v=WUKN_XpB5Rc
+
+
+WF - JUNE 2023 - W2D2 - Belt Review - JS functionality			https://www.youtube.com/watch?v=mNWzRJ26To0
+Remove Btn
+21:21
+OnClick="RemoveMe()"
+till-36:59
