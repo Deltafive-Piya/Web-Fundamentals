@@ -9,5 +9,7 @@ function voteUp(id) {
         document.getElementById("vote3").innerHTML++;
     } else if (id === 4 ) {
         document.getElementById("vote4").innerHTML++; 
-    } 
+    } else {
+        console.log("STOP, GO TOUCH GRASS")
+    }
 }

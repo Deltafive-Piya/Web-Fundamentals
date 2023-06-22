@@ -9,7 +9,7 @@
 <body>
     <!-- NavBar titled "Network" -->
     <nav>
-        <h1>Network</h1>
+        <h1 onclick="voteUp(5)">Network</h1>
     </nav>
     <h2 onclick="voteUp(4)">P<span id="vote4">0</span>ya's Feed</h2>
     <!-- Container has 2 Divs (L/R): ProfileBoxHalf & FeedHalf -->
@@ -19,14 +19,14 @@
                 <!-- IMGavatar will i run into security issues in future if i cd.. * 2?-->
                 <img src="../../important/main-assets/user-circle.png" alt="Avatar Image">
                 <a href="#">Add an avatar</a>
-                <h3>James Doe</h3>
+                <h3>P1ya Boi</h3>
             </div>
         </div>
         <div class="feedHalf">
             <div class="randomFeedBox">
                 <div class="rFB-main">
                     <div class="rFAuthor">
-                         <p>Neil M</p>
+                         <p>John</p>
                     </div>
                     <div class="rFLikes">
                         <p><span id="vote1">9</span> Like(s)</p>
@@ -36,7 +36,7 @@
                     
                 
                 <div class="rFB-details">
-                    
+                    <P> Lil bit o' code n test, Lil bit o' code n test...</P>
                 </div>
             </div>
             <div class="randomFeedBox">
@@ -49,19 +49,23 @@
                         <button onclick="voteUp(2)" class="rFButton">Like</button>
                     </div>
                 </div>
-                <div class="rFB-details"></div>
+                <div class="rFB-details">
+                    <p>Hydration check!</p>
+                </div>
             </div>
             <div class="randomFeedBox">
                 <div class="rFB-main"> <!--needs 2divs: Author and (likeCount and likeBtn)-->
                     <div class="rFAuthor">
-                        <p>Jim R</p>
+                        <p>Vincent</p>
                     </div>
                     <div class="rFLikes">
                         <p><span id="vote3">9</span> Like(s)</p>
                         <button onclick="voteUp(3)" class="rFButton">Like</button>
                     </div>
                 </div> 
-                <div class="rFB-details"></div>
+                <div class="rFB-details">
+                    <p>If the tag is on the same indentation && same color, they're SIBLINGS</p>
+                </div>
             </div>
         </div>
     </div>
