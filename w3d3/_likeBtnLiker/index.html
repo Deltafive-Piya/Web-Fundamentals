@@ -11,7 +11,7 @@
     <nav>
         <h1>Network</h1>
     </nav>
-    <h2>Piya's Feed</h2>
+    <h2 onclick="voteUp(4)">P<span id="vote4">0</span>ya's Feed</h2>
     <!-- Container has 2 Divs (L/R): ProfileBoxHalf & FeedHalf -->
     <div class="container">
         <div class="profileBoxHalf">
@@ -29,8 +29,8 @@
                          <p>Neil M</p>
                     </div>
                     <div class="rFLikes">
-                        <p>9 Like(s)</p>
-                        <button class="rFButton" onclick="">Like</button>
+                        <p><span id="vote1">9</span> Like(s)</p>
+                        <button onclick="voteUp(1)" class="rFButton">Like</button>
                     </div>
                 </div>
                     
@@ -45,8 +45,8 @@
                         <p>Nichole K</p>
                     </div>
                     <div class="rFLikes">
-                        <p>12 Like(s)</p>
-                        <button class="rFButton" onclick="">Like</button>
+                        <p><span id="vote2">12</span> Like(s)</p>
+                        <button onclick="voteUp(2)" class="rFButton">Like</button>
                     </div>
                 </div>
                 <div class="rFB-details"></div>
@@ -57,8 +57,8 @@
                         <p>Jim R</p>
                     </div>
                     <div class="rFLikes">
-                        <p>9 Like(s)</p>
-                        <button class="rFButton" onclick="">Like</button>
+                        <p><span id="vote3">9</span> Like(s)</p>
+                        <button onclick="voteUp(3)" class="rFButton">Like</button>
                     </div>
                 </div> 
                 <div class="rFB-details"></div>
