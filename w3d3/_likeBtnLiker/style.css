@@ -1,5 +1,5 @@
 * {padding:0px; margin:0px;
-    outline: 2px dotted red;
+    /* outline: 2px dotted red; */
     font-family: monospace;
 }   
 
@@ -12,7 +12,9 @@ body {
 }
 
 nav {
-    min-height: 30px;
+    display:flex;
+    align-items: center;
+    min-height: 50px;
     width:80%;
     margin:0 auto;
     background-color: rgb(27, 23, 23);
@@ -21,10 +23,11 @@ nav {
 }
 
 nav > h1 {
-
+    margin-left: 20px;
 }
 
 h2 {
+    font-size: 30px;
     text-align: center;
     margin: 10px 0;
 }
@@ -46,7 +49,7 @@ h2 {
     }
         .profileBox{
             min-height:180px;
-            outline: 4px solid black; /*Awanna merge this */
+            outline: 3px solid black; /*Awanna merge this */
             display:flex;
             flex-direction: column;
             justify-content: space-around;
@@ -56,8 +59,13 @@ h2 {
                 width:70px;
                 height: auto;
             }
+
+            .profileBox > a {
+                font-size: 20px;
+            }
+
             .profileBox > h3 {
-                font-size: x-large;
+                font-size: 30px;
             }
 
 
@@ -68,21 +76,47 @@ h2 {
         
     }
         .randomFeedBox{
-            outline: 4px solid black; /*Bwanna merge this */
+            outline: 3px solid black; /*Bwanna merge this */
             margin-bottom: 10px;
             width:100%;
             min-height: 100px;
-            background-color: gold;
+            /* background-color: gold; */
+            padding: 8px;
         }
 
             /* DIVIDERS FOR RightFeedBoxes */
             .rFB-main, .rFB-details {
+                justify-content: space-between;
+                display:flex;
+                align-items: center;
                 width: 100%;
                 min-height: 40px;
-                background-color: rgb(100, 251, 100);
+                /* background-color: rgb(100, 251, 100); */
             }
+            .rFAuthor p{
+                font-size: 20px;
+                
+            }
+
+            .rFLikes {
+                min-width: 280px;
+                display:flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+                .rFLikes > p {
+                    font-size: 18px;
+                }
+
+                .rFButton {
+                    background-color: yellow;
+                    font-size: 18px;
+                    width: 60px;
+                    height: 40px;
+                    outline: 1px solid black;
+                }
 
             .rFB-details {
                 margin-top: 5px;
-                background-color: rgb(117, 117, 242);
+                /* background-color: rgb(117, 117, 242); */
             }
